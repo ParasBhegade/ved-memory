@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 300px;
+      padding: 16px;
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: 14px;
+    }
+    
+    input, select, button {
+      width: 100%;
+      padding: 8px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #0056b3;
+    }
+    
+    #status {
+      margin: 8px 0;
+      padding: 8px;
+      border-radius: 4px;
+      text-align: center;
+      display: none;
+    }
+    
+    #status.success {
+      background-color: #d4edda;
+      color: #155724;
+      display: block;
+    }
+    
+    #status.error {
+      background-color: #f8d7da;
+      color: #721c24;
+      display: block;
+    }
+    
+    #loginSection {
+      display: block;
+    }
+    
+    #mainSection {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="status"></div>
+  
+  <div id="loginSection">
+    <h3>Login</h3>
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+    <button id="loginBtn">Login</button>
+  </div>
+  
+  <div id="mainSection">
+    <h3>Ved Memory</h3>
+    <select id="projectSelect">
+      <option value="">Select Project</option>
+    </select>
+    <button id="saveBtn">Save Conversation</button>
+    <button id="logoutBtn">Logout</button>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ved Memory Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="dashboard-container">
+
+  <aside class="sidebar">
+    <h2>Projects</h2>
+    <div id="projectList"></div>
+    <button id="logoutBtn">Logout</button>
+  </aside>
+
+  <main class="main-content">
+
+    <section>
+      <h2>Conversations</h2>
+      <div id="conversationList"></div>
+    </section>
+
+    <section>
+      <h2>Conversation Detail</h2>
+      <div id="conversationDetail"></div>
+    </section>
+
+    <section>
+      <h2>Memory Test</h2>
+      <textarea id="memoryQuery" placeholder="Enter memory query..."></textarea>
+      <button id="testMemoryBtn">Test Memory</button>
+      <div id="memoryResult"></div>
+    </section>
+
+  </main>
+
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
