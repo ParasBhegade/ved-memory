@@ -73,16 +73,6 @@ Organized data handling for scalability.
 
 ---
 
-## 👨‍💻 Author
-
-<h3 align="center">Paras Bhegade</h3>
-<p align="center">
-B.Tech CSE (Artificial Intelligence Specialization) <br>
-Passionate about AI Systems & Intelligent Automation
-</p>
-
----
-
 ## ⭐ Support The Project
 
 If you like this project:
